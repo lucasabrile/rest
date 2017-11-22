@@ -1,0 +1,440 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+img{
+	display:block;
+	max-width: 100%;
+}
+     /*Centralizar menu navegação*/
+
+header{
+	height: 420px;
+	background: url("../img/rest-bg.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+    /*Menu de navegação*/
+
+header nav {
+    max-width: 420px;
+    margin: 0 auto;
+    box-shadow: 0 0 0 5px #202020;
+    background-color:#333;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    border: double;
+    
+}
+     /*Barra menu*/
+
+header nav ul li{
+	margin: 0 auto;
+	display:inline-block;
+	margin-left: 20px;
+	margin-top:15px;
+}
+   /*Coloração da escrita do menu, centralizar o texto com espaçameto .1em*/
+
+   header nav ul li a{
+	color: rgb(255, 255, 255);
+	text-align: center;
+	letter-spacing: .1em;
+}
+
+    /*Quando passar o mouse no menu escrita fica vermelha*/
+
+header nav ul li a:hover{
+	color:#EF5656;
+}
+header nav ul li a.menu:after{
+	content: "\f1db";
+}
+
+   /*ajustar imagem Rest*/
+
+header img{
+	display: block;
+	padding: 20px;
+	margin: 0 auto;
+}
+   /*Ajustar endereço*/
+
+   header h1{
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: .1em;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+/*Ajustar telefone*/
+
+header p{
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: .1em;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+}
+
+/*Colocar risca entre o numero de telefone*/
+
+header p:before, header p:after{
+	content: "";
+	display: inline-block;
+	width: 110px;
+	height: 2px;
+	color: #FFFFFF;
+	margin: 0px 15px 5px 15px;
+	background: #FFFFFF; 
+	
+}
+
+/*Fundo Cinza*/
+
+.menu_cardapio{
+	background: #202020;
+}
+
+/*Cor do texto menu da semana*/
+
+.menu_cardapio div h1{
+    color: #333;
+} 
+ 
+.menu_cardapio p{
+	color: white;
+}
+
+.menu_cardapio div h1::before, .menu_cardapio div h1::after{
+	color: #333;
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 3px;
+	color: #333;
+	margin: 0 auto;
+	background: #333;
+}
+
+.menu_cardapio ul li p{
+	color: rgb(94, 93, 93);
+}
+
+/*Leva o texto para direita*/
+
+.menu_cardapio div h3{
+    color: rgb(252, 252, 252);
+	margin-left: 60px;
+	margin-top: 30px;
+}
+.menu_cardapio div p{
+    margin-left: 60px;
+}
+
+.menu_cardapio h2{
+    margin-left: 110px;
+}
+
+.menu_cardapio div h2{
+    color: #EF5656;
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 70px;
+}
+
+.menu_cardapio h1{
+	padding-top: 40px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 45px;
+	letter-spacing: .2em;
+}
+
+.menu_cardapio div li{
+    color: #FFFFFF;
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+.rodape{
+    background-color: #000000;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+/* .rodape div ul li{
+	display:inline-block;
+    margin-left: 20px;
+    margin-top:15px;
+    text-align: center;
+    color: white;
+} */
+
+.rodape div p{
+    color: rgb(255, 255, 255);
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 17px;
+}
+
+.rodape nav div ul li{
+	margin: 0 auto;
+	display:inline-block;
+	margin-left: 20px;
+	margin-top:15px;
+	color: #fff;
+}
+
+.rodape div ul li p{
+	color: white;
+	font-size: 20px;
+}
+
+.rodape div ul li a:hover{
+	color:#EF5656;
+}
+.rodape div ul li a.menu:after{
+	content: "\f1db";
+}
+
+.conteudo_sobre{
+	background: #202020;
+}
+
+.conteudo_sobre div h1::before, .conteudo_sobre div h1::after{
+	color: #333;
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 3px;
+	color: #333;
+	margin: 0 auto;
+	background: #333;
+}
+
+.conteudo_sobre div h2{
+	color: #EF5656;
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+
+/**********FOOTER**************/
+
+.footer{
+	width: 100%;
+	background: #181717;
+	padding: 15px 0;
+}
+
+.container_rodape{
+	background: #181717;
+}
+
+.container_rodape p{
+	color: #525252;
+	text-align: center;
+}
+
+.container_footer{
+	max-width: 460px;
+	margin: 0 auto;
+}
+
+.container_footer ul li{
+	display: inline-block;
+	margin-left: 45px;
+	margin-top: 20px;
+}
+
+.container_footer ul li a{
+	color: #525252;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all .1s ease;
+	margin-left: 5px;
+}
+
+/* .container_footer ul li a{
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all .1s ease;
+} */
+
+.conteudo_sobre div h1{
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 50px;
+}
+
+.conteudo_sobre div li p{
+	color: #fff;
+	margin-top: 50px;
+}
+.conteudo_sobre div ul li h2{
+	font-size: 37px;
+}
+
+.conteudo_sobre div h1{
+	margin-top: 30px;
+}
+
+.menu_cardapio div ul li:before{
+	content: "";
+	display: inline-block;
+	width: 470px;
+	height: 2px;
+	color: #FFFFFF;
+	margin: 0px 15px 5px 15px;
+	background: #333;
+}
+
+/********************Cadastro********************/
+
+/*Layout cadastro*/
+
+body, html{
+	height: 100%;
+	background-repeat: no-repeat;
+	background-color: #d3d3d3;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+	margin-top: 70px;
+}
+
+h1.title { 
+   font-size: 50px;
+   font-family: 'Passion One', cursive; 
+   font-weight: 400; 
+}
+
+hr{
+   width: 10%;
+   color: #fff;
+}
+
+.form-group{
+   margin-bottom: 15px;
+}
+
+label{
+   margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+   font-size: 11px;
+   padding-top: 3px;
+}
+
+.main-login{
+	background-color: #fff;
+   /* shadows and rounded borders */
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   border-radius: 2px;
+   -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+	margin-top: 30px;
+	margin: 0 auto;
+	max-width: 330px;
+   padding: 40px 40px;
+
+}
+
+.login-button{
+   margin-top: 5px;
+}
+
+.login-register{
+   font-size: 11px;
+   text-align: center;
+}
+
+
+/****************Contato****************/
+
+.conteudo_contato{
+	background: #202020;
+}
+
+.conteudo_contato div h1{
+	text-align: center;
+}
+
+.conteudo_contato div h1::before, .conteudo_contato div h1::after{
+	color: #333;
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 3px;
+	color: #333;
+	margin: 0 auto;
+	background: #333;
+	text-align: center;
+}
+
+.conteudo_contato div h2{
+	color: #EF5656;
+	font-family: 'Libre Baskerville', serif;
+	margin-left: 70px;
+	font-size: 40px;
+}
+
+.conteudo_contato div p{
+	color: #fff;
+	margin-left: 70px;
+	font-size: 18px;
+}
+
+.conteudo_contato div p::after{
+	content: "";
+	display: inline-block;
+	width: 250px;
+	height: 2px;
+	color: #FFFFFF;
+	background: #333;
+	
+}
+
+.conteudo_contato div h1{
+	font-family: 'Libre Baskerville', serif;
+	font-size:  45px;
+}
+
+.p1{
+	padding-top: 20px;
+}
+
+.p2{
+	padding-top: 20px;
+}
+
+.p3{
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

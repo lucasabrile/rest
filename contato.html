@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Rest</title>
+		<style>
+			#map {
+			  width: 100%;
+			  height: 400px;
+			  background-color: grey;
+			}
+		  </style>
+		<link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/animacao.js"></script>
+	<script>
+		function initMap() {
+		  var uluru = {lat: -22.8982702, lng: -47.0639602};
+		  var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 4,
+			center: uluru
+		  });
+		  var marker = new google.maps.Marker({
+			position: uluru,
+			map: map
+		  });
+		}
+	  </script>
+    <title>Contato</title>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li class="menu"><a href="index.html">Menu</a></li>
+					<li class="sobre"><a href="sobre.html">Sobre</a></li>
+					<li class="contato"><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+			<img src="img/rest.png" alt="Imagem Rest">
+			<h1>
+				Rua Marechal 29 - Copacabana - Rj
+			</h1>
+			<p>2422-9201</p>
+		</header>
+		<section class="conteudo_contato">
+			<div class="container">
+				<h1>CONTATO</h1>
+				<div id="map"></div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<h2>Dados</h2>
+					<p class="p1">21 2422-9999</p>
+					<p>contato@rest.com</p>
+					<p>facenook.com/rest</p>
+				</div>
+				<div class="conteudo_p col-md-4 col-sm-6 col-xs-12">
+					<h2>Horários</h2>
+					<p class="p2">segunda a Sexta 10 as 23</p>
+					<p>Sabado 14 as 23</p>
+					<p>Domingo 14 as 22</p>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<h2>Endereço</h2>
+					<p class="p3">Rua Marechal, 29</p>
+					<p>Copacabana Rio de Janeiro</p>
+					<p>Brasil terra Via Láctea</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+				<div class="footer">
+					<div class="container_footer">
+						<ul>
+							<li><a href="index.html">Menu</a></li>
+							<li><a href="sobre.html">Sobre</a></li>
+							<li><a href="contato.html">Contato</a></li>
+							<li><a href="cadastrar.html">Login</a></li>
+						</ul>
+					</div>    
+				</div>
+				<div class="copy">
+					<div class="container_rodape">
+						<p>REST C 2017 .ALGUNS DIREITOS RESERVADOS</p>
+					</div>
+				</div>
+			</footer>
+			<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDq6VWF5LYFUm7Hw0fYtyYrXvHfCGSiff0&callback=initMap">
+			</script>
+		<body>
+	</html>
+
+		
